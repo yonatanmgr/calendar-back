@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 app.listen(process.env.PORT || 3000) 
 
-const uri = "mongodb+srv://Yonatan:Z1x2c3v4y@calendar.x0xgfz3.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://...@calendar.x0xgfz3.mongodb.net/?retryWrites=true&w=majority";
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
